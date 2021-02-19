@@ -1,0 +1,15 @@
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    min-height: 70vh;
+}
+
+th, td {
+    border-right: solid 0.5px rgb(182, 179, 179); 
+  }
+
+.mainObj{
+    padding-top: 3%;
+    padding-left: 3%;
+    width: 60%;
+}

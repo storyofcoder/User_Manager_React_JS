@@ -1,0 +1,56 @@
+.headerRight{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    padding-right: 1.5%;
+    padding-left: 15px;
+    border-left: 1px solid lightgray;
+    height: 45px;
+    margin-top: 5px;
+}
+.logo{
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+.menuTitle{
+    margin-left: 15px;
+    padding-left: 15px;
+    height: 30px;
+    border-left: 0.5px solid lightgray;
+    padding-top: 7px;
+    padding-right: 15px;
+    margin-top: 4px;
+}
+.userImage{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.downArrow{
+    width: 15px;
+    height: 15px;
+    opacity: 0.3;
+    cursor: pointer;
+    margin-top: 17px;
+}
+.headerLeft{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.userName{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}

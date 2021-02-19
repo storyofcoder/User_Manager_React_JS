@@ -1,0 +1,32 @@
+.gridPagination{
+    float: right;
+    margin-top: 15px;
+}
+.deleteIcon{
+    height: 20px;
+}
+.deleteBtn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: lightgreen;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.gridPagination button{
+    margin-right: 5px;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 17px;
+}
+button{
+    cursor: pointer;
+}
+.activePage{
+    background-color: lightgreen !important;
+}
+th{
+    background-color: lightgray !important;
+}

@@ -1,0 +1,22 @@
+.navbarDiv{
+    width: 25vw;
+    height: 70vh;
+    border-right: 1px solid lightgray;
+}
+.active{
+      font-size: 20px;
+     min-height: 50px;
+      min-width: calc(100% - 21px);
+      padding-top: 15px;
+      padding-left: 20px;
+      display: inline-block;
+
+  }
+  a{
+      color: darkgray;
+      text-decoration: none;
+  }
+  .greenBack{
+      background-color: rgb(58, 146, 58) !important;
+      display: inline-block;
+  }

@@ -1,0 +1,67 @@
+.dialogContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.desc{
+    background-color: pink;
+    color: white;
+    font-size: 19.5px;
+    width: 50%;
+    height: 65vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+.form{
+    width: 50%;
+    height: 65vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    border-left: 0.5px solid grey;
+}
+.formTitle{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 8vh;
+    right: 4vw;
+}
+.btn{
+    height: 50px;
+    width: 120px;
+    font-size: 17px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.cancel{
+    background-color: orange;
+}
+.add{
+background-color: green;
+}
+.inputLabel{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.addUserIcon{
+    height: 20vh;
+    display: block;
+    position: relative;
+    left: 6.5vw;
+    top: 1vh;
+    margin-bottom: 10vh;
+}
+button:focus {outline:0;}
